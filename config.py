@@ -36,7 +36,7 @@ PREDICTION_CONFIG = {
 NEURAL_NETWORK_CONFIG = {
     'hidden_layers': [32, 16],  # 隐藏层神经元数量
     'learning_rate': 0.001,     # 学习率
-    'epochs': 30,               # 训练轮数
+    'epochs': 40,               # 训练轮数
     'batch_size': 8,            # 批量大小
     'validation_split': 0.2     # 验证集比例
 }
